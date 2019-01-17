@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-  productGUID: efdaf6b0c352e904e9720542be01c848
+  productGUID: c3fef1a9a46f6dc4d9d0e6e68f3fa20b
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -580,10 +580,10 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: 9f88caf2-46c8-4e95-b6d1-667952ded111
+  cloudProjectId: 
   framebufferDepthMemorylessMode: 0
-  projectName: His Name Was Ploop
-  organizationId: sweisian
+  projectName: 
+  organizationId: 
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
