@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 0}
-  speed: 40
+  speed: 10
 --- !u!114 &7182152667650950049
 MonoBehaviour:
   m_ObjectHideFlags: 0

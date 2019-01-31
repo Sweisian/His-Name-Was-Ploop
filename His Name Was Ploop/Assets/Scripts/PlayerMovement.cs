@@ -24,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
     //TODO: maybe move this to the player controller, not sure if I need most of the controller though
     public void ForceToPlayer(Vector2 force_vector)
     {
-        Debug.Log("Force Vector is: " + force_vector);
+        //Debug.Log("Force Vector is: " + force_vector);
         rb.AddForce(force_vector * force_scale, ForceMode2D.Impulse);
 
     }
