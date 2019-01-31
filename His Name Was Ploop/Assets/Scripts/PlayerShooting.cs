@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class PlayerShooting : MonoBehaviour
 {
-
-    [SerializeField] private GameObject player;
     [SerializeField] private GameObject projectilePrefab;
     [SerializeField] private float speed;
 
@@ -20,6 +18,10 @@ public class PlayerShooting : MonoBehaviour
             Vector2 direction = cursorInWorldPos - myPos2D;
             direction.Normalize();
             GameObject projectile = (GameObject)Instantiate(projectilePrefab, myPos2D, Quaternion.identity);
+
+            //Gives the projectile a refernce to the player
+            projectile.GetComponent<InertiaTransfer>().player = gameObject;
+
             projectile.GetComponent<Rigidbody2D>().velocity = direction * speed;
 
         }

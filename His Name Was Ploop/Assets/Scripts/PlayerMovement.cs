@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    private Rigidbody2D rb;
+    [SerializeField] private float force_scale;
 
     public CharacterController2D controller;
 
@@ -13,32 +15,17 @@ public class PlayerMovement : MonoBehaviour
     bool jump = false;
     bool crouch = false;
 
-    // Update is called once per frame
-    void Update()
+    public void Start()
     {
-
-        horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
-
-        if (Input.GetButtonDown("Jump"))
-        {
-            jump = true;
-        }
-
-        if (Input.GetButtonDown("Crouch"))
-        {
-            crouch = true;
-        }
-        else if (Input.GetButtonUp("Crouch"))
-        {
-            crouch = false;
-        }
+        rb = gameObject.GetComponent<Rigidbody2D>();
 
     }
 
-    void FixedUpdate()
+    //TODO: maybe move this to the player controller, not sure if I need most of the controller though
+    public void ForceToPlayer(Vector2 force_vector)
     {
-        // Move our character
-        controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
-        jump = false;
+        Debug.Log("Force Vector is: " + force_vector);
+        rb.AddForce(force_vector * force_scale, ForceMode2D.Impulse);
+
     }
 }
