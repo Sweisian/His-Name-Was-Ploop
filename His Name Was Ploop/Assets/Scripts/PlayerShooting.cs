@@ -18,10 +18,10 @@ public class PlayerShooting : MonoBehaviour
             Vector2 direction = cursorInWorldPos - myPos2D;
             direction.Normalize();
             GameObject projectile = (GameObject)Instantiate(projectilePrefab, myPos2D, Quaternion.identity);
+            //Debug.Log("Created a projectile");
 
             //Gives the projectile a refernce to the player
             projectile.GetComponent<InertiaTransfer>().player = gameObject;
-
             projectile.GetComponent<Rigidbody2D>().velocity = direction * speed;
 
         }

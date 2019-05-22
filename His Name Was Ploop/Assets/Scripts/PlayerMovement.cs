@@ -18,14 +18,16 @@ public class PlayerMovement : MonoBehaviour
     public void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
-
     }
 
     //TODO: maybe move this to the player controller, not sure if I need most of the controller though
     public void ForceToPlayer(Vector2 force_vector)
     {
+        //Debug.Log("I activated");
         //Debug.Log("Force Vector is: " + force_vector);
-        rb.AddForce(force_vector * force_scale, ForceMode2D.Impulse);
+        var forceToAdd = force_vector * force_scale;
+        //Debug.Log("Force added: " + forceToAdd);
+        rb.AddForce(forceToAdd, ForceMode2D.Impulse);
 
     }
 }

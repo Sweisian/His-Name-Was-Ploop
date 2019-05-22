@@ -7,10 +7,16 @@ using UnityEngine;
 public class InertiaTransfer : MonoBehaviour
 {
 
+    //private PlayerMovement playerMov;
     public GameObject player;
     private Vector2 last_velocity_normalized;
 
     //The velocity vector we need is updated here to get the velocity before the collision
+    //private void Start()
+    //{
+    //    playerMov = FindObjectOfType<PlayerMovement>();
+    //}
+
     void FixedUpdate()
     {
         last_velocity_normalized = gameObject.GetComponent<Rigidbody2D>().velocity.normalized;
@@ -23,12 +29,12 @@ public class InertiaTransfer : MonoBehaviour
         ////negated so we get the vector in the direction the ball was going
         //Vector2 force_vector = -contact.normal;
 
+        Debug.Log("I collided with: " + collision.collider.gameObject);
+        Debug.Log(player);
+        //Debug.Log("The Veclocity I transefered: " + last_velocity_normalized);
+
         player.GetComponent<PlayerMovement>().ForceToPlayer(last_velocity_normalized);
         Destroy(gameObject);
-
-        
-
-
     }
 
 

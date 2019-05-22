@@ -24,7 +24,6 @@ public class CameraControl : MonoBehaviour
 
     void Start() {
         wantaBePos = transform.position;
-
     }
     
 
