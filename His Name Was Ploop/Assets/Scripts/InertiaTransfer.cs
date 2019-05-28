@@ -10,12 +10,19 @@ public class InertiaTransfer : MonoBehaviour
     //private PlayerMovement playerMov;
     public GameObject player;
     private Vector2 last_velocity_normalized;
+    [SerializeField] private float force_scale;
+    [SerializeField] private float speed;
 
     //The velocity vector we need is updated here to get the velocity before the collision
     //private void Start()
     //{
     //    playerMov = FindObjectOfType<PlayerMovement>();
     //}
+
+    private void Start()
+    {
+        gameObject.GetComponent<Rigidbody2D>().velocity = gameObject.GetComponent<Rigidbody2D>().velocity * speed;
+    }
 
     void FixedUpdate()
     {
@@ -35,7 +42,7 @@ public class InertiaTransfer : MonoBehaviour
 
         if(!collision.gameObject.GetComponent<NoInertiaTransfer>())
         {
-            player.GetComponent<PlayerMovement>().ForceToPlayer(last_velocity_normalized);
+            player.GetComponent<PlayerMovement>().ForceToPlayer(last_velocity_normalized * force_scale);
         }
 
         Destroy(gameObject);

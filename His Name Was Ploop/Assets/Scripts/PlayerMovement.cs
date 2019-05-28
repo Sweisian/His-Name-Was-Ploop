@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
-    [SerializeField] private float force_scale;
+    
 
     public CharacterController2D controller;
 
@@ -25,8 +25,7 @@ public class PlayerMovement : MonoBehaviour
     {
         //Debug.Log("I activated");
         //Debug.Log("Force Vector is: " + force_vector);
-        var forceToAdd = force_vector * force_scale;
-        //Debug.Log("Force added: " + forceToAdd);
+        var forceToAdd = force_vector;
         rb.AddForce(forceToAdd, ForceMode2D.Force);
 
     }

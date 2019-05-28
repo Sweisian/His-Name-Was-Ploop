@@ -6,16 +6,11 @@ using TMPro;
 public class PlayerShooting : MonoBehaviour
 {
     [SerializeField] private GameObject projectilePrefab;
-    [SerializeField] private float speed;
+    [SerializeField] private GameObject largeProjectilePrefab;
     [SerializeField] private int maxProjectiles;
     [SerializeField] private string projectileTag;
     [SerializeField] private TMP_Text projectileCountText;
 
-    // Update is called once per frame
-    private void Start()
-    {
-        
-    }
 
     void Update()
     {
@@ -28,17 +23,27 @@ public class PlayerShooting : MonoBehaviour
 
         if (currProjectileCount < maxProjectiles)
         {
+            Vector2 direction = cursorInWorldPos - myPos2D;
+            direction.Normalize();
+            GameObject projectile;
+
             if (Input.GetMouseButtonDown(0))
             {
-                Vector2 direction = cursorInWorldPos - myPos2D;
-                direction.Normalize();
-                GameObject projectile = (GameObject)Instantiate(projectilePrefab, myPos2D, Quaternion.identity);
-                //Debug.Log("Created a projectile");
-
+                projectile = (GameObject)Instantiate(projectilePrefab, myPos2D, Quaternion.identity);
                 //Gives the projectile a refernce to the player
                 projectile.GetComponent<InertiaTransfer>().player = gameObject;
-                projectile.GetComponent<Rigidbody2D>().velocity = direction * speed;
+                projectile.GetComponent<Rigidbody2D>().velocity = direction;
             }
+
+            if (Input.GetMouseButtonDown(1))
+            {
+                projectile = (GameObject)Instantiate(largeProjectilePrefab, myPos2D, Quaternion.identity);
+                //Gives the projectile a refernce to the player
+                projectile.GetComponent<InertiaTransfer>().player = gameObject;
+                projectile.GetComponent<Rigidbody2D>().velocity = direction;
+            }
+
+            
         }
 
     }
