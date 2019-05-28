@@ -27,7 +27,7 @@ public class PlayerMovement : MonoBehaviour
         //Debug.Log("Force Vector is: " + force_vector);
         var forceToAdd = force_vector * force_scale;
         //Debug.Log("Force added: " + forceToAdd);
-        rb.AddForce(forceToAdd, ForceMode2D.Impulse);
+        rb.AddForce(forceToAdd, ForceMode2D.Force);
 
     }
 }

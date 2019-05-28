@@ -29,11 +29,15 @@ public class InertiaTransfer : MonoBehaviour
         ////negated so we get the vector in the direction the ball was going
         //Vector2 force_vector = -contact.normal;
 
-        Debug.Log("I collided with: " + collision.collider.gameObject);
-        Debug.Log(player);
+        //Debug.Log("I collided with: " + collision.collider.gameObject);
+        //Debug.Log(player);
         //Debug.Log("The Veclocity I transefered: " + last_velocity_normalized);
 
-        player.GetComponent<PlayerMovement>().ForceToPlayer(last_velocity_normalized);
+        if(!collision.gameObject.GetComponent<NoInertiaTransfer>())
+        {
+            player.GetComponent<PlayerMovement>().ForceToPlayer(last_velocity_normalized);
+        }
+
         Destroy(gameObject);
     }
 
