@@ -8,10 +8,15 @@ public class InertiaTransfer : MonoBehaviour
 {
 
     //private PlayerMovement playerMov;
-    public GameObject player;
+    [HideInInspector] public GameObject player;
+    [HideInInspector] public AudioManager AM;
     private Vector2 last_velocity_normalized;
     [SerializeField] private float force_scale;
     [SerializeField] private float speed;
+    [SerializeField] private float playerParticlePositionScaler;
+    [SerializeField] private GameObject forceParticles;
+    [SerializeField] private GameObject forceParticlesPlayer;
+
 
     //The velocity vector we need is updated here to get the velocity before the collision
     //private void Start()
@@ -21,6 +26,7 @@ public class InertiaTransfer : MonoBehaviour
 
     private void Start()
     {
+
         gameObject.GetComponent<Rigidbody2D>().velocity = gameObject.GetComponent<Rigidbody2D>().velocity * speed;
     }
 
@@ -44,9 +50,22 @@ public class InertiaTransfer : MonoBehaviour
         {
             player.GetComponent<PlayerMovement>().ForceToPlayer(last_velocity_normalized * force_scale);
         }
+        
+        if(AM) AM.Play("projSplat");
+
+        //MAGICAL CODE THAT GETS ME THE RIGHT QUATERNION!
+        var dir =  last_velocity_normalized;
+        var angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+        var myQuat = Quaternion.AngleAxis(angle - 90, Vector3.forward);
+
+        //Instantiate at projectile splat point
+        Instantiate(forceParticles, (Vector2) transform.position, myQuat);
+
+        Vector2 playerOffsetCoords = (Vector2) player.transform.position - last_velocity_normalized * playerParticlePositionScaler;
+
+        //Instantiate at offset from player
+        Instantiate(forceParticlesPlayer, playerOffsetCoords, myQuat);
 
         Destroy(gameObject);
     }
-
-
 }
