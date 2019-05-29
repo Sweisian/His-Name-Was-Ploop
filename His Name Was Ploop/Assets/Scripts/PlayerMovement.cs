@@ -4,20 +4,11 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    private Rigidbody2D rb;
-    
-
-    public CharacterController2D controller;
-
-    public float runSpeed = 40f;
-
-    float horizontalMove = 0f;
-    bool jump = false;
-    bool crouch = false;
+    private UnityJellySprite myUnityJelly;
 
     public void Start()
     {
-        rb = gameObject.GetComponent<Rigidbody2D>();
+        myUnityJelly = gameObject.GetComponent<UnityJellySprite>();
     }
 
     //TODO: maybe move this to the player controller, not sure if I need most of the controller though
@@ -26,7 +17,6 @@ public class PlayerMovement : MonoBehaviour
         //Debug.Log("I activated");
         //Debug.Log("Force Vector is: " + force_vector);
         var forceToAdd = force_vector;
-        rb.AddForce(forceToAdd, ForceMode2D.Force);
-
+        myUnityJelly.m_CentralPoint.GameObject.GetComponent<Rigidbody2D>().AddForce(forceToAdd, ForceMode2D.Force);
     }
 }
