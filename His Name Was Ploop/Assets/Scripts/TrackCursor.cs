@@ -19,6 +19,7 @@ namespace cakeslice
         {
             if (collision.gameObject.tag == "SlimeBall")
             {
+                Debug.Log("Cursor tracker detected slime enter");
                 collision.gameObject.GetComponent<Outline>().enabled = true;
             }
         }
@@ -27,6 +28,7 @@ namespace cakeslice
         {
             if (collision.gameObject.tag == "SlimeBall")
             {
+                Debug.Log("Cursor tracker detected slime exit");
                 collision.gameObject.GetComponent<Outline>().enabled = false;
             }
         }
@@ -36,7 +38,7 @@ namespace cakeslice
             if (Input.GetMouseButtonDown(1))
 
             {
-                Debug.Log("Cursor tracker detected right click");
+                //Debug.Log("Cursor tracker detected right click");
 
                 if (collision.gameObject.tag == "SlimeBall")
                 {

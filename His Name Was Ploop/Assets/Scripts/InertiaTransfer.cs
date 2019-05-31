@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System;
 using UnityEngine;
+using EZCameraShake;
 
 
 public class InertiaTransfer : MonoBehaviour
@@ -78,14 +79,19 @@ public class InertiaTransfer : MonoBehaviour
             if (AM) AM.Play("projSplat");
 
             transform.parent = collision.transform; // make the object collision object it's parent
-            Destroy(gameObject.GetComponent<Rigidbody2D>());
+
+            //It appears that destroying the rigid body breaks the OUTLINE script
+            GetComponent<Rigidbody2D>().Sleep();
+
             isStuck = true;
             //gameObject.GetComponent<Collider2D>().enabled = false; //disable your collider, otherwise it may stick to something else
 
             //Destroy(gameObject);
 
             //Instantiate Collision Particles
-            Instantiate(collisionParticles, (Vector2)transform.position, Quaternion.identity);
+            //Instantiate(collisionParticles, (Vector2)transform.position, Quaternion.identity);
+
+            CameraShaker.Instance.ShakeOnce(1,1,.1f,1);
         }
     }
 }
