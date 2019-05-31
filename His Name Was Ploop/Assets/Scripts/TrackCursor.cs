@@ -2,29 +2,47 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TrackCursor : MonoBehaviour
+namespace cakeslice
 {
-   
-
-    // Update is called once per frame
-    void Update()
+    public class TrackCursor : MonoBehaviour
     {
-        Vector2 cursorInWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        gameObject.transform.position = cursorInWorldPos;
-    }
 
 
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (Input.GetMouseButtonDown(1))
-
+        // Update is called once per frame
+        void Update()
         {
-            Debug.Log("Cursor tracker detected right click");
+            Vector2 cursorInWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            gameObject.transform.position = cursorInWorldPos;
+        }
 
+        private void OnTriggerEnter2D(Collider2D collision)
+        {
             if (collision.gameObject.tag == "SlimeBall")
             {
-                collision.gameObject.GetComponent<InertiaTransfer>().TransferInertia();
+                collision.gameObject.GetComponent<Outline>().enabled = true;
+            }
+        }
 
+        private void OnTriggerExit2D(Collider2D collision)
+        {
+            if (collision.gameObject.tag == "SlimeBall")
+            {
+                collision.gameObject.GetComponent<Outline>().enabled = false;
+            }
+        }
+
+        private void OnTriggerStay2D(Collider2D collision)
+        {
+            if (Input.GetMouseButtonDown(1))
+
+            {
+                Debug.Log("Cursor tracker detected right click");
+
+                if (collision.gameObject.tag == "SlimeBall")
+                {
+                    collision.gameObject.GetComponent<InertiaTransfer>().TransferInertia();
+
+                }
             }
         }
     }
