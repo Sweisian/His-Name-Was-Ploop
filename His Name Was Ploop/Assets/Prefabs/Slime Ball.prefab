@@ -143,6 +143,8 @@ MonoBehaviour:
     type: 3}
   collisionParticles: {fileID: 5495763357053623921, guid: 30afb657e006072419674b10f55b7204,
     type: 3}
+  slimeSplat: {fileID: 5684006592289074722, guid: 8939d39022afb9a45a40a5cbd59399ac,
+    type: 3}
 --- !u!114 &6055422083186135901
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System;
 using UnityEngine;
-using EZCameraShake;
+
 
 
 public class InertiaTransfer : MonoBehaviour
@@ -19,6 +19,7 @@ public class InertiaTransfer : MonoBehaviour
     [SerializeField] private GameObject forceParticles;
     [SerializeField] private GameObject forceParticlesPlayer;
     [SerializeField] private GameObject collisionParticles;
+    [SerializeField] private GameObject slimeSplat;
 
 
     //The velocity vector we need is updated here to get the velocity before the collision
@@ -65,6 +66,8 @@ public class InertiaTransfer : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
+        Instantiate(slimeSplat, (Vector2)transform.position, Quaternion.identity);
+
         if (!isStuck && !collision.gameObject.GetComponent<NoInertiaTransfer>())
         {
             //VERSION THAT APPLIES FORCE BASED ON COLLISION NORMAL
@@ -91,7 +94,10 @@ public class InertiaTransfer : MonoBehaviour
             //Instantiate Collision Particles
             //Instantiate(collisionParticles, (Vector2)transform.position, Quaternion.identity);
 
-            CameraShaker.Instance.ShakeOnce(1,1,.1f,1);
+            //Instantiate Slime Splat
+            
+
+
         }
     }
 }

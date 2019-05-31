@@ -5,11 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class LevelComplete : MonoBehaviour
 {
+    private bool triggered;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (!triggered && collision.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            FindObjectOfType<LevelChanger>().ExitSceneTimeline();
+            Debug.Log("Tried to trigger exit scene timeline");
+            triggered = true;
         }
     }
 }
