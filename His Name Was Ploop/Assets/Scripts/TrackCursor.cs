@@ -12,4 +12,20 @@ public class TrackCursor : MonoBehaviour
         Vector2 cursorInWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         gameObject.transform.position = cursorInWorldPos;
     }
+
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (Input.GetMouseButtonDown(1))
+
+        {
+            Debug.Log("Cursor tracker detected right click");
+
+            if (collision.gameObject.tag == "SlimeBall")
+            {
+                collision.gameObject.GetComponent<InertiaTransfer>().TransferInertia();
+
+            }
+        }
+    }
 }

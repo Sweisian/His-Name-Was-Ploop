@@ -28,7 +28,7 @@ public class PlayerShooting : MonoBehaviour
 
         if (currProjectileCount < maxProjectiles)
         {
-            if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1))
+            if (Input.GetMouseButtonDown(0))
             {
                 Vector2 direction = cursorInWorldPos - myPos2D;
                 direction.Normalize();
@@ -36,8 +36,8 @@ public class PlayerShooting : MonoBehaviour
 
                 if (Input.GetMouseButtonDown(0))
                 { projectile = (GameObject)Instantiate(projectilePrefab, myPos2D, Quaternion.identity); }
-                else if (Input.GetMouseButtonDown(1))
-                { projectile = (GameObject)Instantiate(largeProjectilePrefab, myPos2D, Quaternion.identity); }
+                //else if (Input.GetMouseButtonDown(1))
+                //{ projectile = (GameObject)Instantiate(largeProjectilePrefab, myPos2D, Quaternion.identity); }
 
                 //Gives the projectile a refernce to the player
                 projectile.GetComponent<InertiaTransfer>().player = gameObject;
