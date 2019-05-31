@@ -141,6 +141,8 @@ MonoBehaviour:
     type: 3}
   forceParticlesPlayer: {fileID: 1733028152434018676, guid: 558507a5958f2404baa4509e9be20976,
     type: 3}
+  collisionParticles: {fileID: 5495763357053623921, guid: 30afb657e006072419674b10f55b7204,
+    type: 3}
 --- !u!114 &6055422083186135901
 MonoBehaviour:
   m_ObjectHideFlags: 0

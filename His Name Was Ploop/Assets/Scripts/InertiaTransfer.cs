@@ -17,6 +17,7 @@ public class InertiaTransfer : MonoBehaviour
     [SerializeField] private float playerParticlePositionScaler;
     [SerializeField] private GameObject forceParticles;
     [SerializeField] private GameObject forceParticlesPlayer;
+    [SerializeField] private GameObject collisionParticles;
 
 
     //The velocity vector we need is updated here to get the velocity before the collision
@@ -54,10 +55,14 @@ public class InertiaTransfer : MonoBehaviour
 
         //Instantiate at offset from player
         Instantiate(forceParticlesPlayer, playerOffsetCoords, myQuat);
+
+        
+        
+
         Destroy(gameObject);
     }
 
-    void OnCollisionEnter2D (Collision2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
         if (!isStuck && !collision.gameObject.GetComponent<NoInertiaTransfer>())
         {
@@ -78,6 +83,9 @@ public class InertiaTransfer : MonoBehaviour
             //gameObject.GetComponent<Collider2D>().enabled = false; //disable your collider, otherwise it may stick to something else
 
             //Destroy(gameObject);
+
+            //Instantiate Collision Particles
+            Instantiate(collisionParticles, (Vector2)transform.position, Quaternion.identity);
         }
     }
 }
