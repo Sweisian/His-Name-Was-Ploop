@@ -66,6 +66,7 @@ public class InertiaTransfer : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
+        //Instantiate Slime Splat
         Instantiate(slimeSplat, (Vector2)transform.position, Quaternion.identity);
 
         if (!isStuck && !collision.gameObject.GetComponent<NoInertiaTransfer>())
@@ -92,9 +93,9 @@ public class InertiaTransfer : MonoBehaviour
             //Destroy(gameObject);
 
             //Instantiate Collision Particles
-            //Instantiate(collisionParticles, (Vector2)transform.position, Quaternion.identity);
+            Instantiate(collisionParticles, (Vector2)transform.position, Quaternion.identity);
 
-            //Instantiate Slime Splat
+            
             
 
 

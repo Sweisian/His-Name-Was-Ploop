@@ -11,6 +11,7 @@ public class PlayerShooting : MonoBehaviour
     [SerializeField] private int maxProjectiles;
     [SerializeField] private string projectileTag;
     [SerializeField] private TMP_Text projectileCountText;
+    [SerializeField] private GameObject shootingParticles;
 
     private void Start()
     {
@@ -43,6 +44,13 @@ public class PlayerShooting : MonoBehaviour
                 projectile.GetComponent<InertiaTransfer>().player = gameObject;
                 projectile.GetComponent<InertiaTransfer>().AM = AM;
                 projectile.GetComponent<Rigidbody2D>().velocity = direction;
+
+                //MAGICAL CODE THAT GETS ME THE RIGHT QUATERNION!
+                var dir = direction;
+                var angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+                var myQuat = Quaternion.AngleAxis(angle - 90, Vector3.forward);
+
+                Instantiate(shootingParticles, myPos2D, myQuat);
 
                 if (AM) AM.Play("fireProj");
             }
