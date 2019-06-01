@@ -1,16 +1,53 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 public class PlayerMovement : MonoBehaviour
 {
     private UnityJellySprite myUnityJelly;
-    
+    private GameObject jellyCenter;
+    private Vector2 last_velocity;
+    private Vector2 deltaVelocity;
+    public float threshold_delta;
+    public float shakeDampening;
+
+    private bool hasCentralPoint = false;
+
 
     public void Start()
     {
         myUnityJelly = gameObject.GetComponent<UnityJellySprite>();
-        //myAE = gameObject.GetComponent<AreaEffector2D>();
+        //Debug.Log(myUnityJelly);
+        StartCoroutine(LateStart(.1f));
+    }
+
+    IEnumerator LateStart(float waitTime)
+    {
+        yield return new WaitForSeconds(waitTime);
+        jellyCenter = myUnityJelly.m_CentralPoint.GameObject;
+        //Debug.Log(jellyCenter);
+        hasCentralPoint = true;
+    }
+
+    private void FixedUpdate()
+    {
+        if(hasCentralPoint)
+        {
+            var cur_vel = jellyCenter.GetComponent<Rigidbody2D>().velocity;
+
+            deltaVelocity = cur_vel - last_velocity;
+
+            if (Mathf.Abs(deltaVelocity.magnitude) > threshold_delta)
+            {
+                Debug.Log("deltaVelocity:" + deltaVelocity);
+                var shakeVeclocity = deltaVelocity - (deltaVelocity.normalized * shakeDampening);
+                Debug.Log("shakeVeclocity" + shakeVeclocity);
+                GetComponent<CinemachineImpulseSource>().GenerateImpulse(shakeVeclocity);
+            }
+
+            last_velocity = cur_vel;
+        }
     }
 
     //TODO: maybe move this to the player controller, not sure if I need most of the controller though
