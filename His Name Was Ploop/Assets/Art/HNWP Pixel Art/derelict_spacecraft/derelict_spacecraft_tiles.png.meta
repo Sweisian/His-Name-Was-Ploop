@@ -1,7 +1,673 @@
 fileFormatVersion: 2
 guid: 595e9794881c2d741851f08cd1994408
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 9004398192754089686
+    second: derelict_spacecraft_tiles_0
+  - first:
+      213: -6970167424150671029
+    second: derelict_spacecraft_tiles_1
+  - first:
+      213: 6748031217187135457
+    second: derelict_spacecraft_tiles_2
+  - first:
+      213: -2909085205974745553
+    second: derelict_spacecraft_tiles_3
+  - first:
+      213: -5188363380317780153
+    second: derelict_spacecraft_tiles_4
+  - first:
+      213: -6702866032128427903
+    second: derelict_spacecraft_tiles_5
+  - first:
+      213: 6137030960250825490
+    second: derelict_spacecraft_tiles_6
+  - first:
+      213: -3691885033341726717
+    second: derelict_spacecraft_tiles_7
+  - first:
+      213: 38654816244190688
+    second: derelict_spacecraft_tiles_8
+  - first:
+      213: 1940672916963262514
+    second: derelict_spacecraft_tiles_9
+  - first:
+      213: 5319526895356990934
+    second: derelict_spacecraft_tiles_10
+  - first:
+      213: -1033857646092269183
+    second: derelict_spacecraft_tiles_11
+  - first:
+      213: -3764472386503797495
+    second: derelict_spacecraft_tiles_12
+  - first:
+      213: 299847064746991702
+    second: derelict_spacecraft_tiles_13
+  - first:
+      213: -2466172708443070037
+    second: derelict_spacecraft_tiles_14
+  - first:
+      213: 3633843914455861430
+    second: derelict_spacecraft_tiles_15
+  - first:
+      213: 1994029054238121330
+    second: derelict_spacecraft_tiles_16
+  - first:
+      213: 4037768416666393349
+    second: derelict_spacecraft_tiles_17
+  - first:
+      213: 6922009677817082488
+    second: derelict_spacecraft_tiles_18
+  - first:
+      213: -7927192534648634774
+    second: derelict_spacecraft_tiles_19
+  - first:
+      213: -4604069374109858834
+    second: derelict_spacecraft_tiles_20
+  - first:
+      213: -5497971093378932236
+    second: derelict_spacecraft_tiles_21
+  - first:
+      213: 1384683621028440593
+    second: derelict_spacecraft_tiles_22
+  - first:
+      213: -1345219841041672040
+    second: derelict_spacecraft_tiles_23
+  - first:
+      213: 2329158145672788759
+    second: derelict_spacecraft_tiles_24
+  - first:
+      213: 6143489611127344287
+    second: derelict_spacecraft_tiles_25
+  - first:
+      213: -986400999109032105
+    second: derelict_spacecraft_tiles_26
+  - first:
+      213: -2936194381377417595
+    second: derelict_spacecraft_tiles_27
+  - first:
+      213: 8937261490286090614
+    second: derelict_spacecraft_tiles_28
+  - first:
+      213: -925785950026415923
+    second: derelict_spacecraft_tiles_29
+  - first:
+      213: -2181656820449241618
+    second: derelict_spacecraft_tiles_30
+  - first:
+      213: -3910167404400459881
+    second: derelict_spacecraft_tiles_31
+  - first:
+      213: -6946381687059616619
+    second: derelict_spacecraft_tiles_32
+  - first:
+      213: -3469415772487978481
+    second: derelict_spacecraft_tiles_33
+  - first:
+      213: -4465510683964509804
+    second: derelict_spacecraft_tiles_34
+  - first:
+      213: -7999651312375579846
+    second: derelict_spacecraft_tiles_35
+  - first:
+      213: 1606097119087834986
+    second: derelict_spacecraft_tiles_36
+  - first:
+      213: -2222366127869155170
+    second: derelict_spacecraft_tiles_37
+  - first:
+      213: -4528299877209581911
+    second: derelict_spacecraft_tiles_38
+  - first:
+      213: -7324214737624096739
+    second: derelict_spacecraft_tiles_39
+  - first:
+      213: -4945077823889300316
+    second: derelict_spacecraft_tiles_40
+  - first:
+      213: -5239374445533221246
+    second: derelict_spacecraft_tiles_41
+  - first:
+      213: -9063650371582717033
+    second: derelict_spacecraft_tiles_42
+  - first:
+      213: 3306511333760792452
+    second: derelict_spacecraft_tiles_43
+  - first:
+      213: 6059178478427368291
+    second: derelict_spacecraft_tiles_44
+  - first:
+      213: -2004278741042482660
+    second: derelict_spacecraft_tiles_45
+  - first:
+      213: -2217614263613276719
+    second: derelict_spacecraft_tiles_46
+  - first:
+      213: -1560647591784498794
+    second: derelict_spacecraft_tiles_47
+  - first:
+      213: 4137040500297097047
+    second: derelict_spacecraft_tiles_48
+  - first:
+      213: -4163261256288156201
+    second: derelict_spacecraft_tiles_49
+  - first:
+      213: -2468357471652741831
+    second: derelict_spacecraft_tiles_50
+  - first:
+      213: 1087079045006563748
+    second: derelict_spacecraft_tiles_51
+  - first:
+      213: 2308611849899372663
+    second: derelict_spacecraft_tiles_52
+  - first:
+      213: -4212050909269579524
+    second: derelict_spacecraft_tiles_53
+  - first:
+      213: 3771662893121155828
+    second: derelict_spacecraft_tiles_54
+  - first:
+      213: 5988693896741910128
+    second: derelict_spacecraft_tiles_55
+  - first:
+      213: -4089636750254137163
+    second: derelict_spacecraft_tiles_56
+  - first:
+      213: 2551404995944351716
+    second: derelict_spacecraft_tiles_57
+  - first:
+      213: -1057319216759320966
+    second: derelict_spacecraft_tiles_58
+  - first:
+      213: -753393603881069749
+    second: derelict_spacecraft_tiles_59
+  - first:
+      213: 5254118401031883100
+    second: derelict_spacecraft_tiles_60
+  - first:
+      213: 5975087742651346743
+    second: derelict_spacecraft_tiles_61
+  - first:
+      213: 6049411778669123711
+    second: derelict_spacecraft_tiles_62
+  - first:
+      213: 2921384419741552371
+    second: derelict_spacecraft_tiles_63
+  - first:
+      213: -8813703451769904434
+    second: derelict_spacecraft_tiles_64
+  - first:
+      213: -8893048618148327865
+    second: derelict_spacecraft_tiles_65
+  - first:
+      213: -3121625968352645785
+    second: derelict_spacecraft_tiles_66
+  - first:
+      213: 293668196371859176
+    second: derelict_spacecraft_tiles_67
+  - first:
+      213: 9132248122713590696
+    second: derelict_spacecraft_tiles_68
+  - first:
+      213: -3260132649099060812
+    second: derelict_spacecraft_tiles_69
+  - first:
+      213: 5937704989955505162
+    second: derelict_spacecraft_tiles_70
+  - first:
+      213: 4133955547319364181
+    second: derelict_spacecraft_tiles_71
+  - first:
+      213: 7194709752762277103
+    second: derelict_spacecraft_tiles_72
+  - first:
+      213: -1044496003794461058
+    second: derelict_spacecraft_tiles_73
+  - first:
+      213: 2534007449609502346
+    second: derelict_spacecraft_tiles_74
+  - first:
+      213: -4629753010641280701
+    second: derelict_spacecraft_tiles_75
+  - first:
+      213: -8328719800063325628
+    second: derelict_spacecraft_tiles_76
+  - first:
+      213: -3918724448157711337
+    second: derelict_spacecraft_tiles_77
+  - first:
+      213: 8153811446479152498
+    second: derelict_spacecraft_tiles_78
+  - first:
+      213: 7966406077714939826
+    second: derelict_spacecraft_tiles_79
+  - first:
+      213: -3809404444934696465
+    second: derelict_spacecraft_tiles_80
+  - first:
+      213: -1001503328320252431
+    second: derelict_spacecraft_tiles_81
+  - first:
+      213: -7226266538685889085
+    second: derelict_spacecraft_tiles_82
+  - first:
+      213: 3651588032235655807
+    second: derelict_spacecraft_tiles_83
+  - first:
+      213: -2715181479817369549
+    second: derelict_spacecraft_tiles_84
+  - first:
+      213: -7727091713524733016
+    second: derelict_spacecraft_tiles_85
+  - first:
+      213: -1503161068070321951
+    second: derelict_spacecraft_tiles_86
+  - first:
+      213: 9104007113980624515
+    second: derelict_spacecraft_tiles_87
+  - first:
+      213: -6242032653045817105
+    second: derelict_spacecraft_tiles_88
+  - first:
+      213: 9098768102202668399
+    second: derelict_spacecraft_tiles_89
+  - first:
+      213: -1113166620194418254
+    second: derelict_spacecraft_tiles_90
+  - first:
+      213: -8241392739667005371
+    second: derelict_spacecraft_tiles_91
+  - first:
+      213: -1327334627322957601
+    second: derelict_spacecraft_tiles_92
+  - first:
+      213: -2815276480165000124
+    second: derelict_spacecraft_tiles_93
+  - first:
+      213: -7731396012850107230
+    second: derelict_spacecraft_tiles_94
+  - first:
+      213: 296002940012244322
+    second: derelict_spacecraft_tiles_95
+  - first:
+      213: -8728043293860271097
+    second: derelict_spacecraft_tiles_96
+  - first:
+      213: 2057753397011924286
+    second: derelict_spacecraft_tiles_97
+  - first:
+      213: -2932127301660100430
+    second: derelict_spacecraft_tiles_98
+  - first:
+      213: -3417145994274654783
+    second: derelict_spacecraft_tiles_99
+  - first:
+      213: -3633645797786199528
+    second: derelict_spacecraft_tiles_100
+  - first:
+      213: 569952773598697479
+    second: derelict_spacecraft_tiles_101
+  - first:
+      213: -2532548031697003665
+    second: derelict_spacecraft_tiles_102
+  - first:
+      213: -4889194933421414251
+    second: derelict_spacecraft_tiles_103
+  - first:
+      213: 2132816654133318897
+    second: derelict_spacecraft_tiles_104
+  - first:
+      213: -2036179381576743032
+    second: derelict_spacecraft_tiles_105
+  - first:
+      213: 5561820573464100129
+    second: derelict_spacecraft_tiles_106
+  - first:
+      213: 3350121903389809866
+    second: derelict_spacecraft_tiles_107
+  - first:
+      213: 2864785786222852990
+    second: derelict_spacecraft_tiles_108
+  - first:
+      213: 4795906495694051604
+    second: derelict_spacecraft_tiles_109
+  - first:
+      213: -6642814245952625117
+    second: derelict_spacecraft_tiles_110
+  - first:
+      213: -32722111906857956
+    second: derelict_spacecraft_tiles_111
+  - first:
+      213: 7829218730668844855
+    second: derelict_spacecraft_tiles_112
+  - first:
+      213: 2681857105991720527
+    second: derelict_spacecraft_tiles_113
+  - first:
+      213: 6606088249821230251
+    second: derelict_spacecraft_tiles_114
+  - first:
+      213: 8606252849342236319
+    second: derelict_spacecraft_tiles_115
+  - first:
+      213: 8605189668435370416
+    second: derelict_spacecraft_tiles_116
+  - first:
+      213: -9179698021169081807
+    second: derelict_spacecraft_tiles_117
+  - first:
+      213: 8351870539164720480
+    second: derelict_spacecraft_tiles_118
+  - first:
+      213: -1171603271036521515
+    second: derelict_spacecraft_tiles_119
+  - first:
+      213: 8240174898052681736
+    second: derelict_spacecraft_tiles_120
+  - first:
+      213: -4689056246429152904
+    second: derelict_spacecraft_tiles_121
+  - first:
+      213: 8951938918333251771
+    second: derelict_spacecraft_tiles_122
+  - first:
+      213: 8948449387092540345
+    second: derelict_spacecraft_tiles_123
+  - first:
+      213: -4785528210475297626
+    second: derelict_spacecraft_tiles_124
+  - first:
+      213: 618931283661627636
+    second: derelict_spacecraft_tiles_125
+  - first:
+      213: 1997712916329412219
+    second: derelict_spacecraft_tiles_126
+  - first:
+      213: 1284645044845170324
+    second: derelict_spacecraft_tiles_127
+  - first:
+      213: -4945966385203791047
+    second: derelict_spacecraft_tiles_128
+  - first:
+      213: 4690559654148723189
+    second: derelict_spacecraft_tiles_129
+  - first:
+      213: -1844224055596595303
+    second: derelict_spacecraft_tiles_130
+  - first:
+      213: -7219861132003646498
+    second: derelict_spacecraft_tiles_131
+  - first:
+      213: 3323313402083781707
+    second: derelict_spacecraft_tiles_132
+  - first:
+      213: 6112345420226558820
+    second: derelict_spacecraft_tiles_133
+  - first:
+      213: -1820692603275751064
+    second: derelict_spacecraft_tiles_134
+  - first:
+      213: 7656764385149829405
+    second: derelict_spacecraft_tiles_135
+  - first:
+      213: 5134524338026492564
+    second: derelict_spacecraft_tiles_136
+  - first:
+      213: -2448807943153177578
+    second: derelict_spacecraft_tiles_137
+  - first:
+      213: 1106486274364320402
+    second: derelict_spacecraft_tiles_138
+  - first:
+      213: -468755522645289221
+    second: derelict_spacecraft_tiles_139
+  - first:
+      213: -5207546579475291166
+    second: derelict_spacecraft_tiles_140
+  - first:
+      213: -3288657933246052517
+    second: derelict_spacecraft_tiles_141
+  - first:
+      213: -6611573910189865287
+    second: derelict_spacecraft_tiles_142
+  - first:
+      213: -3751947802081074463
+    second: derelict_spacecraft_tiles_143
+  - first:
+      213: -5740654264801434972
+    second: derelict_spacecraft_tiles_144
+  - first:
+      213: 2461305015562886743
+    second: derelict_spacecraft_tiles_145
+  - first:
+      213: -731939187399766883
+    second: derelict_spacecraft_tiles_146
+  - first:
+      213: 7426664607169374568
+    second: derelict_spacecraft_tiles_147
+  - first:
+      213: 7472463855490817522
+    second: derelict_spacecraft_tiles_148
+  - first:
+      213: -8760751609601491644
+    second: derelict_spacecraft_tiles_149
+  - first:
+      213: -8977610525118070716
+    second: derelict_spacecraft_tiles_150
+  - first:
+      213: -1765693944780298142
+    second: derelict_spacecraft_tiles_151
+  - first:
+      213: -7133996139516103125
+    second: derelict_spacecraft_tiles_152
+  - first:
+      213: -2157169271230024423
+    second: derelict_spacecraft_tiles_153
+  - first:
+      213: -5676312041261160279
+    second: derelict_spacecraft_tiles_154
+  - first:
+      213: 4175773177871606824
+    second: derelict_spacecraft_tiles_155
+  - first:
+      213: -2311620559403776397
+    second: derelict_spacecraft_tiles_156
+  - first:
+      213: -3472072326041982480
+    second: derelict_spacecraft_tiles_157
+  - first:
+      213: -7216803497431302090
+    second: derelict_spacecraft_tiles_158
+  - first:
+      213: -1147558518223116581
+    second: derelict_spacecraft_tiles_159
+  - first:
+      213: 291184327231980188
+    second: derelict_spacecraft_tiles_160
+  - first:
+      213: -1863970151279640331
+    second: derelict_spacecraft_tiles_161
+  - first:
+      213: -2967179670229116642
+    second: derelict_spacecraft_tiles_162
+  - first:
+      213: -3768556605255333511
+    second: derelict_spacecraft_tiles_163
+  - first:
+      213: 8673192648153054485
+    second: derelict_spacecraft_tiles_164
+  - first:
+      213: 9140022076786568142
+    second: derelict_spacecraft_tiles_165
+  - first:
+      213: 4478050256001933429
+    second: derelict_spacecraft_tiles_166
+  - first:
+      213: 934642180957664999
+    second: derelict_spacecraft_tiles_167
+  - first:
+      213: -7801497917112471472
+    second: derelict_spacecraft_tiles_168
+  - first:
+      213: -3107929685726651260
+    second: derelict_spacecraft_tiles_169
+  - first:
+      213: -2274658840492586350
+    second: derelict_spacecraft_tiles_170
+  - first:
+      213: 3179825371279323503
+    second: derelict_spacecraft_tiles_171
+  - first:
+      213: -7889765406796682129
+    second: derelict_spacecraft_tiles_172
+  - first:
+      213: 6005317694563993016
+    second: derelict_spacecraft_tiles_173
+  - first:
+      213: -6984585303823963025
+    second: derelict_spacecraft_tiles_174
+  - first:
+      213: -8663233014077681029
+    second: derelict_spacecraft_tiles_175
+  - first:
+      213: -1059267391805806985
+    second: derelict_spacecraft_tiles_176
+  - first:
+      213: -1062669376599768502
+    second: derelict_spacecraft_tiles_177
+  - first:
+      213: -7431258081149130354
+    second: derelict_spacecraft_tiles_178
+  - first:
+      213: 2140765726099725074
+    second: derelict_spacecraft_tiles_179
+  - first:
+      213: 1854819747497939431
+    second: derelict_spacecraft_tiles_180
+  - first:
+      213: 5324833952965807491
+    second: derelict_spacecraft_tiles_181
+  - first:
+      213: -2403441421087977327
+    second: derelict_spacecraft_tiles_182
+  - first:
+      213: 2867591973290227731
+    second: derelict_spacecraft_tiles_183
+  - first:
+      213: 712808185568821591
+    second: derelict_spacecraft_tiles_184
+  - first:
+      213: -6984196202287876802
+    second: derelict_spacecraft_tiles_185
+  - first:
+      213: -312383332920947347
+    second: derelict_spacecraft_tiles_186
+  - first:
+      213: 3895959759087159163
+    second: derelict_spacecraft_tiles_187
+  - first:
+      213: -2694216043676654013
+    second: derelict_spacecraft_tiles_188
+  - first:
+      213: -8916197232505241846
+    second: derelict_spacecraft_tiles_189
+  - first:
+      213: 1499545339418394080
+    second: derelict_spacecraft_tiles_190
+  - first:
+      213: -6348841607060478304
+    second: derelict_spacecraft_tiles_191
+  - first:
+      213: -1255689804297214149
+    second: derelict_spacecraft_tiles_192
+  - first:
+      213: -1884536372605847284
+    second: derelict_spacecraft_tiles_193
+  - first:
+      213: -5411543192244958626
+    second: derelict_spacecraft_tiles_194
+  - first:
+      213: -2136561649090070181
+    second: derelict_spacecraft_tiles_195
+  - first:
+      213: 6504987309517416896
+    second: derelict_spacecraft_tiles_196
+  - first:
+      213: -5350135052655074959
+    second: derelict_spacecraft_tiles_197
+  - first:
+      213: 7743643088384528510
+    second: derelict_spacecraft_tiles_198
+  - first:
+      213: -4744211283841960644
+    second: derelict_spacecraft_tiles_199
+  - first:
+      213: 25298212647223420
+    second: derelict_spacecraft_tiles_200
+  - first:
+      213: 2926030543390416306
+    second: derelict_spacecraft_tiles_201
+  - first:
+      213: -2298982933037928030
+    second: derelict_spacecraft_tiles_202
+  - first:
+      213: 2735930888298441841
+    second: derelict_spacecraft_tiles_203
+  - first:
+      213: 5953375483654872931
+    second: derelict_spacecraft_tiles_204
+  - first:
+      213: -6278085742992898621
+    second: derelict_spacecraft_tiles_205
+  - first:
+      213: -3263457944052523374
+    second: derelict_spacecraft_tiles_206
+  - first:
+      213: -7288490464057322536
+    second: derelict_spacecraft_tiles_207
+  - first:
+      213: 7585994247988935800
+    second: derelict_spacecraft_tiles_208
+  - first:
+      213: -7568823922193393961
+    second: derelict_spacecraft_tiles_209
+  - first:
+      213: -4343316306343207722
+    second: derelict_spacecraft_tiles_210
+  - first:
+      213: -6942172517852529740
+    second: derelict_spacecraft_tiles_211
+  - first:
+      213: -4909964643040187073
+    second: derelict_spacecraft_tiles_212
+  - first:
+      213: 905487680744048900
+    second: derelict_spacecraft_tiles_213
+  - first:
+      213: -6634249514021603557
+    second: derelict_spacecraft_tiles_214
+  - first:
+      213: 598745471251219311
+    second: derelict_spacecraft_tiles_215
+  - first:
+      213: -3468005191936936290
+    second: derelict_spacecraft_tiles_216
+  - first:
+      213: -863948155148520025
+    second: derelict_spacecraft_tiles_217
+  - first:
+      213: 5761657738111581533
+    second: derelict_spacecraft_tiles_218
+  - first:
+      213: 4427844459967694078
+    second: derelict_spacecraft_tiles_219
+  - first:
+      213: -389066777707337075
+    second: derelict_spacecraft_tiles_220
+  - first:
+      213: -1583071786150307309
+    second: derelict_spacecraft_tiles_221
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -31,7 +697,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,12 +706,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 8
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -63,7 +729,18 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -71,7 +748,4669 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 496
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891b2767ff2dd0f489b291c9525f1bf4
+      internalID: 9004398192754089686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 496
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7780e11e54b4b004f83f4ab1f3825bf4
+      internalID: -6970167424150671029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_2
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 496
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906cd6c5cf9fa7b4480bef855987f260
+      internalID: 6748031217187135457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_3
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 496
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e922b1614f25c8438dd0cce4960429f
+      internalID: -2909085205974745553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 487
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc7d5390c35f024dac170f9f783a577
+      internalID: -5188363380317780153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 487
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d845b8b0b5129546bdd8ff3994b60a2
+      internalID: -6702866032128427903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_6
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 487
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1703a50cd478b414db6a41541918967a
+      internalID: 6137030960250825490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_7
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 487
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018dfa12428c5e5468c325733e182172
+      internalID: -3691885033341726717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 478
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed01289c8bae3b40812f21da58e43fd
+      internalID: 38654816244190688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_9
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 478
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3bf70ad2a6f1b04eb2617f58ca4c1fb
+      internalID: 1940672916963262514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_10
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 478
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694ca1d9e50aaa54b90a8f3c86ce7350
+      internalID: 5319526895356990934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_11
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 478
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df56a2fdc0ea9044baa6564c49e27808
+      internalID: -1033857646092269183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 469
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2677316e5b8d5fd4ba5352503d882a07
+      internalID: -3764472386503797495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_13
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 469
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46a79566e4afa54da859fd75f17149f
+      internalID: 299847064746991702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_14
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 469
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795a84cacda2cfb478f6563520c2a7d1
+      internalID: -2466172708443070037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_15
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 469
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7872d8f1d7a91224a9f7403eda75f3b1
+      internalID: 3633843914455861430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 460
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fee5ddf830b5a44facdbe82e3c91e9a
+      internalID: 1994029054238121330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_17
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 460
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324afe91c06d1cd40b347601be21eb9c
+      internalID: 4037768416666393349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_18
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 460
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede6f6169e6d40346a013d7a31b38422
+      internalID: 6922009677817082488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_19
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 460
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc22ddff408f8d3418c3dcbbf1c1f9bb
+      internalID: -7927192534648634774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 451
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514f7f7923c698b428f0716c5521f851
+      internalID: -4604069374109858834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_21
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 451
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629e7dd27fd1c154faf232d0649464b2
+      internalID: -5497971093378932236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_22
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 451
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e24a6a87ed733a4db5039da9d5d08e8
+      internalID: 1384683621028440593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_23
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 451
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b7294c12d69154288564873e424334
+      internalID: -1345219841041672040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 442
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1478031cd15e545a83a392ba109345
+      internalID: 2329158145672788759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_25
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 442
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1290b0ce2fa8744a61362f1ee02bc1
+      internalID: 6143489611127344287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_26
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 442
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33101ccf18ccba0469079121418b6300
+      internalID: -986400999109032105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_27
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 442
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786e07a0dbd062b468d55fc1ada72b01
+      internalID: -2936194381377417595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_28
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 433
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dcefaf6c68a566428534d5390c90109
+      internalID: 8937261490286090614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_29
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 433
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f0ef44a1f028441b38211b0c42d2a4
+      internalID: -925785950026415923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_30
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 433
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0866fb11b96a9f4db5477a9a563343e
+      internalID: -2181656820449241618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_31
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 433
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bea8c07adab77941b9aa7abc29ac820
+      internalID: -3910167404400459881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 424
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1735da1d600aca4d821ba9f1b60d7b3
+      internalID: -6946381687059616619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_33
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 424
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb57706f797f894f9430d725bf8cd64
+      internalID: -3469415772487978481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_34
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 424
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca276a8eff56ead48b6545b9ae7d011d
+      internalID: -4465510683964509804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_35
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 424
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb339f24fe01a645a6e7c1ff18cb4ab
+      internalID: -7999651312375579846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 415
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477929bd425d6d241ad8b18712cd1ee0
+      internalID: 1606097119087834986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_37
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 415
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f385f6022d7cfa34f95685bb82040c7e
+      internalID: -2222366127869155170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_38
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 415
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a680f837843aae4c8acf36a5312ea69
+      internalID: -4528299877209581911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_39
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 415
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12788efb553d7e24e9dd251a933b92c4
+      internalID: -7324214737624096739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 406
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6dd8a34b6d1f2498d0fb5504343871
+      internalID: -4945077823889300316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_41
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 406
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8fff612703bdd49a3f760576073498
+      internalID: -5239374445533221246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_42
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 406
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2585aaa1a1c58a7498a8f46cd639a962
+      internalID: -9063650371582717033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_43
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 406
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b217989701c201a4894cd5265b3f0cea
+      internalID: 3306511333760792452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_44
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 397
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96185dba8c29b444ea386f7b4224d4ea
+      internalID: 6059178478427368291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_45
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 397
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3bfe54e75d3c94aacac5542319d8ed
+      internalID: -2004278741042482660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_46
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 397
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976d1d78d3622894a952eb182c96b03e
+      internalID: -2217614263613276719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_47
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 397
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5a34ddbcff4414291c0c82413d68c7
+      internalID: -1560647591784498794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_48
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 388
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df81c85497d10e4b9c6fad484a71908
+      internalID: 4137040500297097047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_49
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 388
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff28f7415b1b4d4dbbfe40c3d0ca1b6
+      internalID: -4163261256288156201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_50
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 388
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407fa1dfe621cda45a36e8163c205f9c
+      internalID: -2468357471652741831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_51
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 388
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367eaaafe48d238498d431477f56ac63
+      internalID: 1087079045006563748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_52
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 379
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a646589dd28c894e918969030bcb45d
+      internalID: 2308611849899372663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_53
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 379
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb627b708947fd46ab2f14d16d8c8e5
+      internalID: -4212050909269579524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_54
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 379
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80ad28ac60e0364ca8207bbc82a933a
+      internalID: 3771662893121155828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_55
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 379
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9c8ec310f76b646b0e4dc9a6aa6fbf
+      internalID: 5988693896741910128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_56
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 370
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87796209394f42b4886e5222251e5193
+      internalID: -4089636750254137163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_57
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 370
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe8fa7db4e4a3a49a8bf58a5836cd00
+      internalID: 2551404995944351716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_58
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 370
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff43025d5ec1204c839c0b1df6a76e8
+      internalID: -1057319216759320966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_59
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 370
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0dcb2be04302c43a35c2fd4e9276f4
+      internalID: -753393603881069749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 361
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a5dae8a7c8ba34e97afc336c7e3966
+      internalID: 5254118401031883100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_61
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 361
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17beab467111b1d48b8c103e9e16391a
+      internalID: 5975087742651346743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_62
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 361
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6745455a9c2e2014caf8afd7d4cbefef
+      internalID: 6049411778669123711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_63
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 361
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634daf427b43bae439f27031f879e92c
+      internalID: 2921384419741552371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_64
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 352
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f00b9a0da61d941a8701d813b6dcb5
+      internalID: -8813703451769904434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_65
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 352
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c5beed5d271f1478ce4d207f314d0a
+      internalID: -8893048618148327865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_66
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 352
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68188312a2a8ea945a7e0bff0af965ad
+      internalID: -3121625968352645785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_67
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 352
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75eb81fc5a6aa646abf2ffc30863fa0
+      internalID: 293668196371859176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_68
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 343
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdad8b3f59529044198b6894cdcf34b0
+      internalID: 9132248122713590696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_69
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 343
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f45523b454b04245be86aaaf6ea424c
+      internalID: -3260132649099060812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_70
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 343
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68331ed1a36933428b11523b1747dbd
+      internalID: 5937704989955505162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_71
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 343
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3b0d577cfcb904f8512909a116cc8e
+      internalID: 4133955547319364181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_72
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 334
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85829a1f964b9744979b4ddd5da270f
+      internalID: 7194709752762277103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_73
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 334
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f872a82fa5a01459c559653ca8c456
+      internalID: -1044496003794461058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_74
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 334
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21db21585854b434aaa2899c10fd0ad5
+      internalID: 2534007449609502346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_75
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 334
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c46509490b2f5e4d955c5c05b8ef544
+      internalID: -4629753010641280701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_76
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 325
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4bb503f1422376428abd7724b342fb2
+      internalID: -8328719800063325628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_77
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 325
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993618e87497ffa4b96920f4eb623d86
+      internalID: -3918724448157711337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_78
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 325
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d18b4d18ff1be543a99890dd16b4a5e
+      internalID: 8153811446479152498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_79
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 325
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092f880a66364bf41860b2b602c00b8f
+      internalID: 7966406077714939826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_80
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 316
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02ea6f84152b484b993db4b2a465223
+      internalID: -3809404444934696465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_81
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 316
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d037e937ffd1dc340835aa4ab9667cf6
+      internalID: -1001503328320252431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_82
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 316
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c416f3a931ed4a94c80f3af65bcf4e81
+      internalID: -7226266538685889085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_83
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 316
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba2f191a2e1cf34388b417c69ad149b
+      internalID: 3651588032235655807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_84
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 307
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d2ae6eed37b3347b18ab1691f0e33d
+      internalID: -2715181479817369549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_85
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 307
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370ec3b71f20a734aa9d3e4415df44c3
+      internalID: -7727091713524733016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_86
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 307
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ef90af6bc23c44db0e89e9df2fb423
+      internalID: -1503161068070321951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_87
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 307
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45945c9f8cf31b40969237abd9f9717
+      internalID: 9104007113980624515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_88
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 298
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d12827812309cb46a2d08190d7c3090
+      internalID: -6242032653045817105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_89
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 298
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e2a805f434dff46aa07bae95fc17a1
+      internalID: 9098768102202668399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_90
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 298
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93080523e64496a418fd64bf3e90d131
+      internalID: -1113166620194418254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_91
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 298
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1236c67b60899c545be7893bd5b32926
+      internalID: -8241392739667005371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_92
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 289
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad03c048fec244348ad735919d7e16a1
+      internalID: -1327334627322957601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_93
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 289
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1d5077957755b458725d51e82b06a5
+      internalID: -2815276480165000124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_94
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 289
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9d4171c967849419d4729b3adb686c
+      internalID: -7731396012850107230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_95
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 289
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b9ce7303fa76f499dce9678afe3953
+      internalID: 296002940012244322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_96
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 280
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0035c0d13594a3148908ed8ccaf09188
+      internalID: -8728043293860271097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_97
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 280
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f3edbba3905974da8118095028dd0f
+      internalID: 2057753397011924286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_98
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 280
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02340d63b4951354e9a937593a031e73
+      internalID: -2932127301660100430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_99
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 280
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb1867c0f59f2147a2a03f50da7c7cd
+      internalID: -3417145994274654783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_100
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 271
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05fdcb870299eeb4284150771e449560
+      internalID: -3633645797786199528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_101
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 271
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c986c2c55807aa84fba43f38c6aa40d6
+      internalID: 569952773598697479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_102
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 271
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4170436d8d513aa41b7507771843ab15
+      internalID: -2532548031697003665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_103
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 271
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d84814a18b6074aadbdcd66b05669c
+      internalID: -4889194933421414251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_104
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 262
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5168f52536d96114889a351a5a349d05
+      internalID: 2132816654133318897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_105
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 262
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3848cf9fea45b46b494829f631208e
+      internalID: -2036179381576743032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_106
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 262
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea96e33c69ba77546a29176394d592bb
+      internalID: 5561820573464100129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_107
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 262
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1a4332b4cd30f4aa09553a7c9efbae
+      internalID: 3350121903389809866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_108
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 253
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3de2b9ef439e74cb7ff53da9118503
+      internalID: 2864785786222852990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_109
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 253
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc23fd86597591341b01d1882d00b3b0
+      internalID: 4795906495694051604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_110
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 253
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7df30c584e16c489586cde2094b2b3
+      internalID: -6642814245952625117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_111
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 253
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e7ec0b0a62f174783aeb8e2f95dbe3
+      internalID: -32722111906857956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_112
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 244
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8fcbfe27f8f28a44b671a14d8bb6d8a
+      internalID: 7829218730668844855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_113
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 244
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afc7ec97e1b28c45bb07f869e5355e0
+      internalID: 2681857105991720527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_114
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 244
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246357c555efac749bcab51def7cf798
+      internalID: 6606088249821230251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_115
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 244
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e7f88fc3958a041a59848b65eaf57e
+      internalID: 8606252849342236319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_116
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 235
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3bb800af24201442a4b7cb511c8d2e7
+      internalID: 8605189668435370416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_117
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 235
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95a65c7998744548b6a0157bf8116ce
+      internalID: -9179698021169081807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_118
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 235
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5a7bd6b13511e4a8a37861f61868ee
+      internalID: 8351870539164720480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_119
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 235
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0763d2a78cf82ac4689a431993c30fba
+      internalID: -1171603271036521515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_120
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 226
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181d7a0f33a6cc84694f58ce9c9aaf66
+      internalID: 8240174898052681736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_121
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 226
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bec269614111342933fb588f1d8142
+      internalID: -4689056246429152904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_122
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 226
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc941a010b0dda341a568b2099a944b0
+      internalID: 8951938918333251771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_123
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 226
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966eb14dd18394a40aa69c8c98c09613
+      internalID: 8948449387092540345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_124
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 217
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03833187b6f23194db3a473ebaca7afc
+      internalID: -4785528210475297626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_125
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 217
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ea9f193935d674cba21a08456b6543
+      internalID: 618931283661627636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_126
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 217
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902cd32ffc91ada4087aea906243ec1a
+      internalID: 1997712916329412219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_127
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 217
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c18588389a0ef045938c04039e397be
+      internalID: 1284645044845170324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_128
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 208
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adba35655e18084dbc94631de3329da
+      internalID: -4945966385203791047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_129
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 208
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20a3cc31eee42f4a95a02674878d22a
+      internalID: 4690559654148723189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_130
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 208
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590b77f259fe84d4981e72a57bf76381
+      internalID: -1844224055596595303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_131
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 208
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bff44ef8d26c9c40907ad312345b266
+      internalID: -7219861132003646498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_132
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 199
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76eb7ec8c97f69741b05140bb178da94
+      internalID: 3323313402083781707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_133
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 199
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36261508878cce842b7f77872dc571f7
+      internalID: 6112345420226558820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_134
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 199
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97fae8c6ed01195468b34c96b4c3a372
+      internalID: -1820692603275751064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_135
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 199
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eba740146b61154487835882feb05d5
+      internalID: 7656764385149829405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_136
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 190
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc9b04c0415b0c4b8005ff4d6d2f545
+      internalID: 5134524338026492564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_137
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 190
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3dd15871e55aaa428893f23a277d08a
+      internalID: -2448807943153177578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_138
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 190
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4a05a5aae672b4691bd34f048cda42
+      internalID: 1106486274364320402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_139
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 190
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c9f13f65441be448c438944bca2943
+      internalID: -468755522645289221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_140
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bcf770f6b20b714c82e351a19a1a3bf
+      internalID: -5207546579475291166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_141
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81a0ea3eef75e7449c1101727be0b36
+      internalID: -3288657933246052517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_142
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92e54bbca74f59468c0ee26dd2523ea
+      internalID: -6611573910189865287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_143
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56da1ec8ac91a940b05f726523e9b89
+      internalID: -3751947802081074463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_144
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 172
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f683e20ab321c7468a4c6c7b597cb0d
+      internalID: -5740654264801434972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_145
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 172
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc6af6bb7f8119489ae651105e57f38
+      internalID: 2461305015562886743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_146
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 172
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b67aca516936741b33044fcb790e5d
+      internalID: -731939187399766883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_147
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 172
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb8b944f0bbb2d46b8db06faae7a38a
+      internalID: 7426664607169374568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_148
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 163
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401d94d7fef01a44a90feb1494e7c4fe
+      internalID: 7472463855490817522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_149
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 163
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fe001a639f39040b32ac6c63c08f97
+      internalID: -8760751609601491644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_150
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 163
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d39a96e58613a48af70f45ef5b1ce1
+      internalID: -8977610525118070716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_151
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 163
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5639c713da4c846822d5128485f889
+      internalID: -1765693944780298142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_152
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 154
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91df8fdbaeb1284a84067dbfbede26b
+      internalID: -7133996139516103125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_153
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 154
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caef2d2ebb1102341af262c96eee1b60
+      internalID: -2157169271230024423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_154
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 154
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4088796c49d5fc4286ea148c3db33dc
+      internalID: -5676312041261160279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_155
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 154
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e490a80a9002194a9da7b467718e4ac
+      internalID: 4175773177871606824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_156
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 145
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfbf8ba5d02e4d4fbbbc0992aa7c929
+      internalID: -2311620559403776397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_157
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 145
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07226c8dbab53b4aabb52844da6c3b6
+      internalID: -3472072326041982480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_158
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 145
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbd9acf1abb0564fa555acff6ca5c56
+      internalID: -7216803497431302090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_159
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 145
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8abf9a4d4562b954887d22d9b8fc31a7
+      internalID: -1147558518223116581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_160
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 136
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48773065fc684de4f8596378dc4b7c75
+      internalID: 291184327231980188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_161
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 136
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085cf3735ef1bc2469ebd1f5c7b486a7
+      internalID: -1863970151279640331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_162
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 136
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7f05cff5e90824c94af9d6af020fc5
+      internalID: -2967179670229116642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_163
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 136
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7071beab7355142aaff861b9bfda97
+      internalID: -3768556605255333511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_164
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 127
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26d9afdf96b4d0459fce5705e6fb695
+      internalID: 8673192648153054485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_165
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 127
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b6cccb77f467048a7d25791bdfa150
+      internalID: 9140022076786568142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_166
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 127
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f7c9f44860e3947b52ceaea8a674c6
+      internalID: 4478050256001933429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_167
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 127
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b4580ce26cc1f47bba28c11d20d39c
+      internalID: 934642180957664999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_168
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 118
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e98ce5256138cf43a740065a75537a1
+      internalID: -7801497917112471472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_169
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 118
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76b67b638568c340a637f0f9adf73b9
+      internalID: -3107929685726651260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_170
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 118
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e460f550f815e9c4f9531ddf22e7db23
+      internalID: -2274658840492586350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_171
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 118
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb24bae05ef4b9b419eb88dd8082338a
+      internalID: 3179825371279323503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_172
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 109
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8dafcb3e6be374e97ea2059c58f6c2
+      internalID: -7889765406796682129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_173
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 109
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3ce3a133861a34e9297e34dc393a1d
+      internalID: 6005317694563993016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_174
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 109
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20e8371e5402804bbf947da8677c882
+      internalID: -6984585303823963025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_175
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 109
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a723403d0303e479be58ff73e51dd4
+      internalID: -8663233014077681029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_176
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7209f5dfab4154dbd48490d179d8cd
+      internalID: -1059267391805806985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_177
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532499c204d63044ebbfc0decedd175c
+      internalID: -1062669376599768502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_178
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f195f04da0bca3d47887f57a9f3a5128
+      internalID: -7431258081149130354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_179
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a49f6f8eced0924ab70566e5e09fc40
+      internalID: 2140765726099725074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_180
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918ba0b595f200f42a7fe39080333531
+      internalID: 1854819747497939431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_181
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9606a46fdaa3d34a8766cbd06e2a675
+      internalID: 5324833952965807491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_182
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b80fbc74d516a04ca5cc43a7a1dda4e
+      internalID: -2403441421087977327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_183
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf19f717a61ccc419ef8a8ff86d47de
+      internalID: 2867591973290227731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_184
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c46b464584016e459681e5e2d6757c9
+      internalID: 712808185568821591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_185
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71264e7291f792244b30612da39be4a5
+      internalID: -6984196202287876802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_186
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a81e25e8e5376468e94de4dba793d3
+      internalID: -312383332920947347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_187
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30d669dd51336948b7d4afa23a52f7b
+      internalID: 3895959759087159163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_188
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a9c14137042cc4bb68a0731752d1f6
+      internalID: -2694216043676654013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_189
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c65eae36a5340f46a4aed192050f5e1
+      internalID: -8916197232505241846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_190
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd31d49a0c0abc47bacce7b24a45a0d
+      internalID: 1499545339418394080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_191
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc659f2c9d451f4abb367f4dfc37a1f
+      internalID: -6348841607060478304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_192
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2565ab8d5d966814abf825f71147dbb4
+      internalID: -1255689804297214149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_193
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cea22ddb4df9c6489cbed3fb2b26c2a
+      internalID: -1884536372605847284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_194
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82fdd8a980b262d40a736dc342b4e7cb
+      internalID: -5411543192244958626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_195
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a474ec5605da6a4f9a4c76a5f0099a9
+      internalID: -2136561649090070181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_196
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db201936520481b49bcc45ee5bcbfc52
+      internalID: 6504987309517416896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_197
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5dd3a52bf20e0409a635ef3b1e8330
+      internalID: -5350135052655074959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_198
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c125648954d5794295e14400efefd72
+      internalID: 7743643088384528510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_199
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ee3a6d3f94939418b30e9d05ca9255
+      internalID: -4744211283841960644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_200
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8e676e3bb0b884ba95ea1b1684ef9a
+      internalID: 25298212647223420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_201
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8033cb01b6d5ec24fb03896222aebf9d
+      internalID: 2926030543390416306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_202
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec814d84948640342b7e9fedb405b4b6
+      internalID: -2298982933037928030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_203
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe81fe87ba6278a40b42b74bcbe309e5
+      internalID: 2735930888298441841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_204
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e387e95354b8f4ea858a46a8096292
+      internalID: 5953375483654872931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_205
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b727210bdd0cf4c9075e4d9e375e6d
+      internalID: -6278085742992898621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_206
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f88d5acd4ccb0d47ad599da40ee4c1e
+      internalID: -3263457944052523374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_207
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6158033a7d6f79c489e83fc7f46a2971
+      internalID: -7288490464057322536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_208
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b4ea9412a31ef4da8ef7d6541c1e61
+      internalID: 7585994247988935800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_209
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c76dd27fa047f547a58c46b1d1da6c4
+      internalID: -7568823922193393961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_210
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b669179658bef4c890dc84d18e77aa
+      internalID: -4343316306343207722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_211
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ecb2046e1d945a489825176f32c543c
+      internalID: -6942172517852529740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_212
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2634d499631ed1a4088b2777eecc207f
+      internalID: -4909964643040187073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_213
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2012731cabafb424e9a0d789f6e9a9a7
+      internalID: 905487680744048900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_214
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45808b3f067d25946ac2a08d41635ff3
+      internalID: -6634249514021603557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_215
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec17caf05554ee49b8aaf6c0acc9021
+      internalID: 598745471251219311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_216
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cae9f8a352ac2741958bee8e8c1f987
+      internalID: -3468005191936936290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_217
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06fc35a3741acd440ac1dc6c443f9e03
+      internalID: -863948155148520025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_218
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142289f045c976e43b931f700294ebe5
+      internalID: 5761657738111581533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_219
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b079713de0ef16246a67669a3ed06f8f
+      internalID: 4427844459967694078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_220
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8011876ecb04804da50dc5f5ffac6dd
+      internalID: -389066777707337075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: derelict_spacecraft_tiles_221
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1769a871ec62d6e42a56aec5fe4a84fd
+      internalID: -1583071786150307309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
