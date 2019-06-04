@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 3270435168871728437}
   - component: {fileID: 4691678776797466103}
   - component: {fileID: 7128574364857421353}
-  - component: {fileID: 3012996529277726132}
   - component: {fileID: 6055422083186135901}
+  - component: {fileID: 8270003045397054900}
+  - component: {fileID: -8505882341638181020}
   m_Layer: 9
   m_Name: Slime Ball
   m_TagString: SlimeBall
@@ -29,7 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3270435168871728438}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.34039965, y: -2.17, z: 0.037109375}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -120,31 +121,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.1875
---- !u!114 &3012996529277726132
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3270435168871728438}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 244216adf77597f4f922a31b8adaedf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  AM: {fileID: 0}
-  force_scale: 500
-  speed: 25
-  playerParticlePositionScaler: 3.5
-  forceParticles: {fileID: 21639055377058839, guid: 5fe9bb345a748d04d8245b89c6845f68,
-    type: 3}
-  forceParticlesPlayer: {fileID: 1733028152434018676, guid: 558507a5958f2404baa4509e9be20976,
-    type: 3}
-  collisionParticles: {fileID: 5495763357053623921, guid: 30afb657e006072419674b10f55b7204,
-    type: 3}
-  slimeSplat: {fileID: 5684006592289074722, guid: 8939d39022afb9a45a40a5cbd59399ac,
-    type: 3}
 --- !u!114 &6055422083186135901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,3 +137,41 @@ MonoBehaviour:
   eraseRenderer: 0
   originalLayer: 0
   originalMaterials: []
+--- !u!114 &8270003045397054900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3270435168871728438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af6225b5065f9ac47889cb891c75f1da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightingBolt: {fileID: 106988, guid: 15dec7b07032b2f4aa6f855bfbe120f7, type: 3}
+--- !u!114 &-8505882341638181020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3270435168871728438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 244216adf77597f4f922a31b8adaedf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  AM: {fileID: 0}
+  force_scale: 300
+  speed: 20
+  playerParticlePositionScaler: 2.5
+  forceParticles: {fileID: 1733028152434018676, guid: 558507a5958f2404baa4509e9be20976,
+    type: 3}
+  forceParticlesPlayer: {fileID: 21639055377058839, guid: 5fe9bb345a748d04d8245b89c6845f68,
+    type: 3}
+  collisionParticles: {fileID: 5495763357053623921, guid: 30afb657e006072419674b10f55b7204,
+    type: 3}
+  slimeSplat: {fileID: 5684006592289074722, guid: 8939d39022afb9a45a40a5cbd59399ac,
+    type: 3}

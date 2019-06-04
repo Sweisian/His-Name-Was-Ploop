@@ -32,22 +32,22 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(hasCentralPoint)
-        {
-            var cur_vel = jellyCenter.GetComponent<Rigidbody2D>().velocity;
+        //if(hasCentralPoint)
+        //{
+        //    var cur_vel = jellyCenter.GetComponent<Rigidbody2D>().velocity;
 
-            deltaVelocity = cur_vel - last_velocity;
+        //    deltaVelocity = cur_vel - last_velocity;
 
-            if (Mathf.Abs(deltaVelocity.magnitude) > threshold_delta)
-            {
-                Debug.Log("deltaVelocity:" + deltaVelocity);
-                var shakeVeclocity = deltaVelocity - (deltaVelocity.normalized * shakeDampening);
-                Debug.Log("shakeVeclocity" + shakeVeclocity);
-                GetComponent<CinemachineImpulseSource>().GenerateImpulse(shakeVeclocity);
-            }
+        //    if (Mathf.Abs(deltaVelocity.magnitude) > threshold_delta)
+        //    {
+        //        Debug.Log("deltaVelocity:" + deltaVelocity);
+        //        var shakeVeclocity = deltaVelocity - (deltaVelocity.normalized * shakeDampening);
+        //        Debug.Log("shakeVeclocity" + shakeVeclocity);
+        //        GetComponent<CinemachineImpulseSource>().GenerateImpulse(shakeVeclocity);
+        //    }
 
-            last_velocity = cur_vel;
-        }
+        //    last_velocity = cur_vel;
+        //}
     }
 
     //TODO: maybe move this to the player controller, not sure if I need most of the controller though

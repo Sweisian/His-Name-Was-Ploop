@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using System;
 using UnityEngine;
-
-
+//using DigitalRuby.LightningBolt;
 
 public class InertiaTransfer : MonoBehaviour
 {
@@ -20,6 +19,7 @@ public class InertiaTransfer : MonoBehaviour
     [SerializeField] private GameObject forceParticlesPlayer;
     [SerializeField] private GameObject collisionParticles;
     [SerializeField] private GameObject slimeSplat;
+    //[SerializeField] private GameObject lightingBolt;
 
 
     //The velocity vector we need is updated here to get the velocity before the collision
@@ -51,15 +51,16 @@ public class InertiaTransfer : MonoBehaviour
         var myQuat = Quaternion.AngleAxis(angle - 90, Vector3.forward);
 
         //Instantiate at projectile splat point
-        Instantiate(forceParticles, (Vector2) transform.position, myQuat);
+        Instantiate(forceParticles, (Vector2)transform.position, myQuat);
 
         Vector2 playerOffsetCoords = (Vector2)player.transform.position - last_velocity_normalized * playerParticlePositionScaler;
 
         //Instantiate at offset from player
         Instantiate(forceParticlesPlayer, playerOffsetCoords, myQuat);
 
-        
-        
+       
+        gameObject.GetComponent<GenerateLightning>().makeLighting(player);
+
 
         Destroy(gameObject);
     }
@@ -95,10 +96,11 @@ public class InertiaTransfer : MonoBehaviour
             //Instantiate Collision Particles
             Instantiate(collisionParticles, (Vector2)transform.position, Quaternion.identity);
 
-            
-            
+
+
 
 
         }
     }
 }
+

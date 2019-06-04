@@ -1,9 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
+using cakeslice;
 
-namespace cakeslice
-{
+
     public class TrackCursor : MonoBehaviour
     {
 
@@ -33,6 +34,7 @@ namespace cakeslice
             }
         }
 
+        
         private void OnTriggerStay2D(Collider2D collision)
         {
             if (Input.GetMouseButtonDown(1))
@@ -43,9 +45,9 @@ namespace cakeslice
                 if (collision.gameObject.tag == "SlimeBall")
                 {
                     collision.gameObject.GetComponent<InertiaTransfer>().TransferInertia();
-
+                    GetComponent<CinemachineImpulseSource>().GenerateImpulse();
                 }
             }
         }
     }
-}
+
