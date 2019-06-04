@@ -70,6 +70,8 @@ public class InertiaTransfer : MonoBehaviour
         //Instantiate Slime Splat
         Instantiate(slimeSplat, (Vector2)transform.position, Quaternion.identity);
 
+        GetComponentInChildren<StoredEnergyArrow>().EnableArrow(last_velocity_normalized);
+
         if (!isStuck && !collision.gameObject.GetComponent<NoInertiaTransfer>())
         {
             //VERSION THAT APPLIES FORCE BASED ON COLLISION NORMAL
