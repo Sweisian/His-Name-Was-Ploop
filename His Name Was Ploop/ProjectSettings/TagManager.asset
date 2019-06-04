@@ -41,12 +41,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Far Background
+    uniqueID: 4014395989
+    locked: 0
   - name: Background
     uniqueID: 1884859781
+    locked: 0
+  - name: Struts
+    uniqueID: 4192544183
     locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
   - name: Forground
     uniqueID: 2184796717
+    locked: 0
+  - name: New Layer
+    uniqueID: 2932292199
     locked: 0
