@@ -11,5 +11,9 @@ public class DeathZone : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
+        else if (collision.gameObject.GetComponent<InertiaTransfer>())
+        {
+            Destroy(collision.gameObject);
+        }
     }
 }

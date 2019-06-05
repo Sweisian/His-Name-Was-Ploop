@@ -3,16 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
 using cakeslice;
+using System.Linq;
 
 
 public class TrackCursor : MonoBehaviour
 {
+    public float checkRadius;
+    private Collider2D[] inRadiusArray;
 
     //[SerializeField] private Queue<GameObject> slimeBallQue;
 
     private void Start()
     {
         Cursor.visible = false;
+        inRadiusArray = new Collider2D[5];
         //slimeBallQue = new Queue<GameObject>();
     }
 
@@ -22,40 +26,72 @@ public class TrackCursor : MonoBehaviour
     {
         Vector2 cursorInWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         gameObject.transform.position = cursorInWorldPos;
-    }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "SlimeBall")
+        var curColliderArray =  Physics2D.OverlapCircleAll(transform.position, checkRadius);
+
+        foreach (Collider2D col in curColliderArray)
         {
-            //Debug.Log("Cursor tracker detected slime enter");
-            collision.gameObject.GetComponent<Outline>().enabled = true;
-            //slimeBallQue.Enqueue(collision.gameObject);
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "SlimeBall")
-        {
-            //Debug.Log("Cursor tracker detected slime exit");
-            collision.gameObject.GetComponent<Outline>().enabled = false;
-            //slimeBallQue.Dequeue();
-        }
-    }
-
-
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-
-        if (collision.gameObject.tag == "SlimeBall")
-        {
-            if (Input.GetMouseButtonDown(1))
+            if (col.gameObject.tag == "SlimeBall")
             {
-                collision.gameObject.GetComponent<InertiaTransfer>().TransferInertia();
-                GetComponent<CinemachineImpulseSource>().GenerateImpulse();
+                col.gameObject.GetComponent<Outline>().enabled = true;
+                if (Input.GetMouseButtonDown(1))
+                {
+                    col.gameObject.GetComponent<InertiaTransfer>().TransferInertia();
+                    GetComponent<CinemachineImpulseSource>().GenerateImpulse();
+                }
             }
         }
+        foreach (Collider2D col in inRadiusArray.Except(curColliderArray))
+        {
+            if (col)
+            {
+                var myOut = col.gameObject.GetComponent<Outline>();
+
+                if (myOut)
+                {
+                    col.gameObject.GetComponent<Outline>().enabled = false;
+                }
+            }
+
+            
+            
+        }
+
+        inRadiusArray = curColliderArray;
     }
+
+    //private void OnTriggerEnter2D(Collider2D collision)
+    //{
+    //    if (collision.gameObject.tag == "SlimeBall")
+    //    {
+    //        //Debug.Log("Cursor tracker detected slime enter");
+    //        collision.gameObject.GetComponent<Outline>().enabled = true;
+    //        //slimeBallQue.Enqueue(collision.gameObject);
+    //    }
+    //}
+
+    //private void OnTriggerExit2D(Collider2D collision)
+    //{
+    //    if (collision.gameObject.tag == "SlimeBall")
+    //    {
+    //        //Debug.Log("Cursor tracker detected slime exit");
+    //        collision.gameObject.GetComponent<Outline>().enabled = false;
+    //        //slimeBallQue.Dequeue();
+    //    }
+    //}
+
+
+    //private void OnTriggerStay2D(Collider2D collision)
+    //{
+
+    //    if (collision.gameObject.tag == "SlimeBall")
+    //    {
+    //        if (Input.GetMouseButtonDown(1))
+    //        {
+    //            collision.gameObject.GetComponent<InertiaTransfer>().TransferInertia();
+    //            GetComponent<CinemachineImpulseSource>().GenerateImpulse();
+    //        }
+    //    }
+    //}
 }
 

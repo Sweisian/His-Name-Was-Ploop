@@ -96,7 +96,9 @@ public class InertiaTransfer : MonoBehaviour
             transform.parent = collision.transform; // make the object collision object it's parent
 
             //It appears that destroying the rigid body breaks the OUTLINE script
-            GetComponent<Rigidbody2D>().Sleep();
+            Destroy(GetComponent<Rigidbody2D>());
+            //GetComponent<Rigidbody2D>().Sleep();
+            //GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
 
             isStuck = true;
             //gameObject.GetComponent<Collider2D>().enabled = false; //disable your collider, otherwise it may stick to something else
