@@ -5,7 +5,7 @@ using TMPro;
 
 public class PlayerShooting : MonoBehaviour
 {
-    private AudioManager AM;
+    //[HideInInspector] public AudioManager AM;
     [SerializeField] private GameObject projectilePrefab;
     [SerializeField] private GameObject largeProjectilePrefab;
     [SerializeField] private int maxProjectiles;
@@ -15,7 +15,7 @@ public class PlayerShooting : MonoBehaviour
 
     private void Start()
     {
-        AM = FindObjectOfType<AudioManager>();
+        //AM = FindObjectOfType<AudioManager>();
     }
 
     void Update()
@@ -42,7 +42,7 @@ public class PlayerShooting : MonoBehaviour
 
                 //Gives the projectile a refernce to the player
                 projectile.GetComponent<InertiaTransfer>().player = gameObject;
-                projectile.GetComponent<InertiaTransfer>().AM = AM;
+                //projectile.GetComponent<InertiaTransfer>().AM = AM;
                 projectile.GetComponent<Rigidbody2D>().velocity = direction;
 
                 //MAGICAL CODE THAT GETS ME THE RIGHT QUATERNION!
@@ -52,7 +52,7 @@ public class PlayerShooting : MonoBehaviour
 
                 Instantiate(shootingParticles, myPos2D, myQuat);
 
-                if (AM) AM.Play("fireProj");
+                AudioManager.instance.Play("fireProj");
             }
         }
     }

@@ -9,7 +9,7 @@ public class InertiaTransfer : MonoBehaviour
 
     //private PlayerMovement playerMov;
     [HideInInspector] public GameObject player;
-    [HideInInspector] public AudioManager AM;
+    //public AudioManager AM; // is given an AM refernce by the player
     private Vector2 last_velocity_normalized;
     private bool isStuck = false;
     [SerializeField] private float force_scale;
@@ -30,6 +30,7 @@ public class InertiaTransfer : MonoBehaviour
 
     private void Start()
     {
+        
         gameObject.GetComponent<Rigidbody2D>().velocity = gameObject.GetComponent<Rigidbody2D>().velocity * speed;
     }
 
@@ -91,7 +92,7 @@ public class InertiaTransfer : MonoBehaviour
             //Debug.Log(player);
             //Debug.Log("The Veclocity I transefered: " + last_velocity_normalized);
 
-            if (AM) AM.Play("projSplat");
+            AudioManager.instance.Play("projSplat");
 
             transform.parent = collision.transform; // make the object collision object it's parent
 
