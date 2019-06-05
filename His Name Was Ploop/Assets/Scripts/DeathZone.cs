@@ -13,7 +13,7 @@ public class DeathZone : MonoBehaviour
         }
         else if (collision.gameObject.GetComponent<InertiaTransfer>())
         {
-            Destroy(collision.gameObject);
+            collision.gameObject.GetComponent<InertiaTransfer>().SelfDestruct();
         }
     }
 }

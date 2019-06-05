@@ -38,6 +38,7 @@ public class TrackCursor : MonoBehaviour
                 {
                     col.gameObject.GetComponent<InertiaTransfer>().TransferInertia();
                     GetComponent<CinemachineImpulseSource>().GenerateImpulse();
+                    AudioManager.instance.Play("shock");
                 }
             }
         }

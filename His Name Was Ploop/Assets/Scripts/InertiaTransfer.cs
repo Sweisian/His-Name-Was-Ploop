@@ -71,7 +71,8 @@ public class InertiaTransfer : MonoBehaviour
         if(collision.gameObject.tag == "NoStick")
         {
             //Add a diff sound effect here?
-            Destroy(gameObject);
+
+            SelfDestruct();
             return;
         }
 
@@ -108,12 +109,13 @@ public class InertiaTransfer : MonoBehaviour
 
             //Instantiate Collision Particles
             Instantiate(collisionParticles, (Vector2)transform.position, Quaternion.identity);
-
-
-
-
-
         }
+    }
+
+    public void SelfDestruct()
+    {
+        AudioManager.instance.Play("sizzle");
+        Destroy(gameObject);
     }
 }
 
