@@ -67,8 +67,16 @@ public class InertiaTransfer : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
+        if(collision.gameObject.tag == "NoStick")
+        {
+            //Add a diff sound effect here?
+            Destroy(gameObject);
+            return;
+        }
+
         //Instantiate Slime Splat
         Instantiate(slimeSplat, (Vector2)transform.position, Quaternion.identity);
+
 
         GetComponentInChildren<StoredEnergyArrow>().EnableArrow(last_velocity_normalized);
 
