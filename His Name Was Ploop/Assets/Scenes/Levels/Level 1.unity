@@ -1268,6 +1268,40 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!84 &253852582
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 766
+  m_Height: 431
+  m_AntiAliasing: 1
+  m_DepthFormat: 1
+  m_ColorFormat: 8
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1 &310685999
 GameObject:
   m_ObjectHideFlags: 0
@@ -6847,10 +6881,16 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: 'Press  "R" to restart a level
+  m_text: 'Controls: Left click to shoot, Right click to detonate
 
 
-    Press "T" to restart the game'
+    Press  "R" to restart a level
+
+
+    Press "T" to restart the game
+
+
+    Press "Q" to quit the game'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -6878,8 +6918,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 4.85
-  m_fontSizeBase: 4.85
+  m_fontSize: 3.57
+  m_fontSizeBase: 3.57
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6916,15 +6956,15 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 4.3493013, y: 1.2740387, z: 9.840845, w: 1.2740375}
+  m_margin: {x: 4.3493013, y: 0.93511814, z: 9.840845, w: 0.5736016}
   m_textInfo:
     textComponent: {fileID: 350211983}
-    characterCount: 60
+    characterCount: 144
     spriteCount: 0
-    spaceCount: 13
-    wordCount: 12
+    spaceCount: 30
+    wordCount: 27
     linkCount: 0
-    lineCount: 4
+    lineCount: 8
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -22667,7 +22707,7 @@ ParticleSystemRenderer:
   m_ApplyActiveColorSpace: 1
   m_AllowRoll: 1
   m_VertexStreams: 00010304
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
@@ -27570,6 +27610,40 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!84 &692278236
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 766
+  m_Height: 431
+  m_AntiAliasing: 1
+  m_DepthFormat: 1
+  m_ColorFormat: 8
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &829792856
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27694,7 +27768,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Welcome to the "His Name Was Ploop" Demo!
+  m_text: "Welcome to\n\"His Name Was Ploop\"! \n(Version .02)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -27722,8 +27796,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 5
-  m_fontSizeBase: 5
+  m_fontSize: 5.38
+  m_fontSizeBase: 5.38
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -27763,12 +27837,12 @@ MonoBehaviour:
   m_margin: {x: 4.3493013, y: 1.2740387, z: 9.840845, w: 1.2740375}
   m_textInfo:
     textComponent: {fileID: 897344754}
-    characterCount: 41
+    characterCount: 47
     spriteCount: 0
-    spaceCount: 7
+    spaceCount: 8
     wordCount: 8
     linkCount: 0
-    lineCount: 2
+    lineCount: 3
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -30833,40 +30907,6 @@ RenderTexture:
   serializedVersion: 3
   m_Width: 750
   m_Height: 422
-  m_AntiAliasing: 1
-  m_DepthFormat: 1
-  m_ColorFormat: 8
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
---- !u!84 &1268611651
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 956
-  m_Height: 537
   m_AntiAliasing: 1
   m_DepthFormat: 1
   m_ColorFormat: 8
@@ -34846,40 +34886,6 @@ RenderTexture:
     m_WrapW: 1
   m_Dimension: 2
   m_VolumeDepth: 1
---- !u!84 &1645391843
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 956
-  m_Height: 537
-  m_AntiAliasing: 1
-  m_DepthFormat: 1
-  m_ColorFormat: 8
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1001 &1890364857
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34895,12 +34901,12 @@ PrefabInstance:
     - target: {fileID: 3672504182351203400, guid: 53f59b38f91e777408f194f64c510337,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.93
+      value: 4.3
       objectReference: {fileID: 0}
     - target: {fileID: 3672504182351203400, guid: 53f59b38f91e777408f194f64c510337,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.06
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 3672504182351203400, guid: 53f59b38f91e777408f194f64c510337,
         type: 3}
@@ -35686,7 +35692,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2139726756}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.02, y: 7.59, z: -10}
+  m_LocalPosition: {x: -6.86, y: 7.86, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 372928107}
@@ -35977,7 +35983,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TargetTexture
       value: 
-      objectReference: {fileID: 1268611651}
+      objectReference: {fileID: 692278236}
     - target: {fileID: 3703987963863327139, guid: 5c9e52a2e353ff140aad528b6e8958da,
         type: 3}
       propertyPath: orthographic size
@@ -36310,20 +36316,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 6450823578980319150, guid: 9b4d556a54d82634f83f3b5cb353156b,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6450823578980319146, guid: 9b4d556a54d82634f83f3b5cb353156b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.02
+      value: -6.86
       objectReference: {fileID: 0}
     - target: {fileID: 6450823578980319146, guid: 9b4d556a54d82634f83f3b5cb353156b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.59
+      value: 7.86
       objectReference: {fileID: 0}
     - target: {fileID: 6450823578980319146, guid: 9b4d556a54d82634f83f3b5cb353156b,
         type: 3}
@@ -36385,34 +36386,5 @@ PrefabInstance:
       propertyPath: projectileCountText
       value: 
       objectReference: {fileID: 1214015216}
-    - target: {fileID: 6450823578980319125, guid: 9b4d556a54d82634f83f3b5cb353156b,
-        type: 3}
-      propertyPath: shootingParticles
-      value: 
-      objectReference: {fileID: 6800476632813523274, guid: 29aae4db0628b5048a5bbe78e5be85b5,
-        type: 3}
-    - target: {fileID: 6450823578980319124, guid: 9b4d556a54d82634f83f3b5cb353156b,
-        type: 3}
-      propertyPath: threshold_delta
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 6450823578980319124, guid: 9b4d556a54d82634f83f3b5cb353156b,
-        type: 3}
-      propertyPath: shakeDampening
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 78462735, guid: 9b4d556a54d82634f83f3b5cb353156b, type: 3}
-      propertyPath: m_ImpulseDefinition.m_AmplitudeGain
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 78462735, guid: 9b4d556a54d82634f83f3b5cb353156b, type: 3}
-      propertyPath: m_ImpulseDefinition.m_FrequencyGain
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 78462735, guid: 9b4d556a54d82634f83f3b5cb353156b, type: 3}
-      propertyPath: m_ImpulseDefinition.m_TimeEnvelope.m_SustainTime
-      value: 0.1
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 78462734, guid: 9b4d556a54d82634f83f3b5cb353156b, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b4d556a54d82634f83f3b5cb353156b, type: 3}

@@ -6,12 +6,15 @@ using TMPro;
 public class PlayerShooting : MonoBehaviour
 {
     //[HideInInspector] public AudioManager AM;
+    
     [SerializeField] private GameObject projectilePrefab;
     [SerializeField] private GameObject largeProjectilePrefab;
     [SerializeField] private int maxProjectiles;
     [SerializeField] private string projectileTag;
     [SerializeField] private TMP_Text projectileCountText;
     [SerializeField] private GameObject shootingParticles;
+    [SerializeField] private float timeBetweenShots = .4f;
+    private bool allowFire = true;
 
     private void Start()
     {
@@ -29,14 +32,15 @@ public class PlayerShooting : MonoBehaviour
 
         if (currProjectileCount < maxProjectiles)
         {
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0) && allowFire)
             {
+                allowFire = false;
+
                 Vector2 direction = cursorInWorldPos - myPos2D;
                 direction.Normalize();
                 GameObject projectile = null;
 
-                if (Input.GetMouseButtonDown(0))
-                { projectile = (GameObject)Instantiate(projectilePrefab, myPos2D, Quaternion.identity); }
+                projectile = (GameObject)Instantiate(projectilePrefab, myPos2D, Quaternion.identity);
                 //else if (Input.GetMouseButtonDown(1))
                 //{ projectile = (GameObject)Instantiate(largeProjectilePrefab, myPos2D, Quaternion.identity); }
 
@@ -53,7 +57,15 @@ public class PlayerShooting : MonoBehaviour
                 Instantiate(shootingParticles, myPos2D, myQuat);
 
                 AudioManager.instance.Play("fireProj");
+
+                StartCoroutine(shootRefresh());
             }
         }
+    }
+
+    IEnumerator shootRefresh()
+    {
+        yield return new WaitForSeconds(timeBetweenShots);
+        allowFire = true;
     }
 }
